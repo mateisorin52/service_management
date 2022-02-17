@@ -1,0 +1,53 @@
+.administrare{
+    width: 100%;
+    background: #DCDFE4;
+}
+.administrare-inner{
+    width: 92%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: auto;
+    justify-content: center;
+  
+}
+.client-card{
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+.card-edits{
+    width: 100%;
+    align-self: flex-end;
+    justify-self: end;
+
+}
+.statistics{
+    height: 30px;
+
+}
+.stat{
+    width: 50%;
+    height: 30px;}
+.select{
+    text-align: left;
+    width: 100px !important
+}
+.enabled{
+    transform: scale(1.5);
+}
+@media screen and (max-width: 1124px) {
+    .administrare-inner{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px) {
+    .administrare-inner{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 700px) {
+    .administrare-inner{
+        grid-template-columns: 1fr ;
+    }
+}

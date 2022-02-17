@@ -1,0 +1,25 @@
+.bar{
+    background-color: #ebeef4;
+    border-right:2px solid #c2c5c9
+}
+
+.regular-link{
+    color:#585e6a;
+    display: flex;
+    align-items: center;
+}
+.regular-link:hover{
+    color:white
+}
+.active-link{
+    color:#0257ff;
+    display: flex;
+    align-items: center;
+
+}
+.all-bg{
+    background: #dcdfe4;
+}
+.nav-icon{
+    margin-right: 5px;
+}
